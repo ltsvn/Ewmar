@@ -10,8 +10,8 @@ import "swiper/css/pagination"
 import 'swiper/css/free-mode';
 import {yantramanav} from '@/lib/font'
 export const metadata = {
-    title: 'Elitecons',
-    description: 'React Next Js Construction Template',
+    title: 'Ewmar - Sieniawa',
+    description: 'Firma usługowo-sprzedażowa',
 }
 
 export default function RootLayout({ children }) {

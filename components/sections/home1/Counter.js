@@ -24,7 +24,7 @@ export default function Counter() {
                                     <CounterUp end={20} />
                                         <span>+</span>
                                     </div>
-                                    <p className="counter-one__text">Winning award</p>
+                                    <p className="counter-one__text">Lat na rynku</p>
                                 </div>
                             </div>
                         </div>
@@ -40,7 +40,7 @@ export default function Counter() {
                                     <CounterUp end={900} />
                                         <span>+</span>
                                     </div>
-                                    <p className="counter-one__text">Client review</p>
+                                    <p className="counter-one__text">Pozytywnych opinii</p>
                                 </div>
                             </div>
                         </div>
@@ -57,7 +57,7 @@ export default function Counter() {
                                         <span>K</span>
                                         <span>+</span>
                                     </div>
-                                    <p className="counter-one__text">Complete project</p>
+                                    <p className="counter-one__text">Zrealizowanych usług</p>
                                 </div>
                             </div>
                         </div>
@@ -73,7 +73,7 @@ export default function Counter() {
                                     <CounterUp end={200} />
                                         <span>+</span>
                                     </div>
-                                    <p className="counter-one__text">Team member</p>
+                                    <p className="counter-one__text">Dostępnych produktów</p>
                                 </div>
                             </div>
                         </div>

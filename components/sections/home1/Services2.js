@@ -4,15 +4,16 @@ export default function Services2() {
         <>
 
         {/*Services Two Start */}
-        <section className="services-two">
+        <section className="services-two" id="services">
             <div className="container">
                 <div className="section-title text-center">
                     <div className="section-title__tagline-box">
-                        <span className="section-title__tagline">What we offer</span>
+                        <span className="section-title__tagline">Nasza oferta</span>
                     </div>
-                    <h2 className="section-title__title">Perfect Structures Building for<br/> a Sustainable Tomorrow </h2>
+                    <h2 className="section-title__title">Profesjonalne usługi instalacyjne<br/> dla Twojego komfortu</h2>
                 </div>
-                <div className="row">
+                <div>
+                    <div className="row justify-content-around">
                     {/*Services Two Single Start*/}
                     <div className="col-xl-4 col-lg-4 wow fadeInLeft" data-wow-delay="100ms">
                         <div className="services-two__single">
@@ -22,19 +23,15 @@ export default function Services2() {
                                 </div>
                             </div>
                             <div className="services-two__content">
-                                <h3 className="services-two__title"><Link href="service-details">Building Dreams</Link></h3>
-                                <p className="services-two__text">Lorem Ipsum isly dummy text of the printing Lorem Ipsum
+                                <h3 className="services-two__title"><Link href="service-details">Montaż i wymiana kotłów gazowych</Link></h3>
+                                <p className="services-two__text">Zaufaj naszym ekspertom w montażu i wymianie kotłów gazowych, zapewniając wydajne, bezpieczne i efektywne ogrzewanie w Twoim domu.
                                 </p>
-                                <div className="services-two__btn-box">
-                                    <Link href="service-details" className="services-two__btn thm-btn">Read more<span
-                                            className="icon-dabble-arrow-right"></span></Link>
-                                </div>
                             </div>
                         </div>
                     </div>
                     {/*Services Two Single End*/}
                     {/*Services Two Single Start*/}
-                    <div className="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="200ms">
+                    <div className="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="400ms">
                         <div className="services-two__single">
                             <div className="services-two__img-box">
                                 <div className="services-two__img">
@@ -42,14 +39,27 @@ export default function Services2() {
                                 </div>
                             </div>
                             <div className="services-two__content">
-                                <h3 className="services-two__title"><Link href="service-details">Creating Reality</Link>
-                                </h3>
-                                <p className="services-two__text">Lorem Ipsum isly dummy text of the printing Lorem Ipsum
-                                </p>
-                                <div className="services-two__btn-box">
-                                    <Link href="service-details" className="services-two__btn thm-btn">Read more<span
-                                            className="icon-dabble-arrow-right"></span></Link>
+                                <h3 className="services-two__title"><Link href="service-details">Usługi wodno-kanalizacyjne i CO</Link></h3>
+                                <p className="services-two__text">Świadczymy kompleksowe usługi w zakresie instalacji wodno-kanalizacyjnych oraz centralnego ogrzewania, gwarantując najwyższą jakość wykonania.</p>
+                            </div>
+                        </div>
+                    </div>
+                    {/*Services Two Single End*/}
+                    </div>
+                    <div className="row justify-content-around">
+                    {/*Services Two Single Start*/}
+                    <div className="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="200ms">
+                        <div className="services-two__single">
+                            <div className="services-two__img-box">
+                                <div className="services-two__img">
+                                    <img src="assets/images/services/services-2-3.jpg" alt=""/>
                                 </div>
+                            </div>
+                            <div className="services-two__content">
+                                <h3 className="services-two__title"><Link href="service-details">Instalacje pomp ciepła</Link>
+                                </h3>
+                                <p className="services-two__text">Specjalizujemy się w instalacji pomp ciepła, które stanowią ekologiczne i energooszczędne rozwiązanie dla każdego rodzaju budynku.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -59,22 +69,19 @@ export default function Services2() {
                         <div className="services-two__single">
                             <div className="services-two__img-box">
                                 <div className="services-two__img">
-                                    <img src="assets/images/services/services-2-3.jpg" alt=""/>
+                                    <img src="assets/images/services/services-2-4.jpg" alt=""/>
                                 </div>
                             </div>
                             <div className="services-two__content">
-                                <h3 className="services-two__title"><Link href="service-details">Delivering Quality</Link>
+                                <h3 className="services-two__title"><Link href="service-details">Montaż klimatyzacji</Link>
                                 </h3>
-                                <p className="services-two__text">Lorem Ipsum isly dummy text of the printing Lorem Ipsum
+                                <p className="services-two__text">Oferujemy profesjonalny montaż klimatyzacji, abyś mógł cieszyć się idealną temperaturą i komfortem przez cały rok, niezależnie od pogody.
                                 </p>
-                                <div className="services-two__btn-box">
-                                    <Link href="service-details" className="services-two__btn thm-btn">Read more<span
-                                            className="icon-dabble-arrow-right"></span></Link>
-                                </div>
                             </div>
                         </div>
                     </div>
                     {/*Services Two Single End*/}
+                    </div>
                 </div>
             </div>
         </section>

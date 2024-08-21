@@ -7,14 +7,14 @@ export default function Breadcrumb({ breadcrumbTitle }) {
 
         {/*Page Header Start*/}
         <section className="page-header">
-            <div className="page-header__bg" style={{ backgroundImage: 'url(assets/images/backgrounds/page-header-bg.jpg' }} >
+            <div className="page-header__bg" style={{ backgroundImage: 'url(assets/images/resources/contact-page-img-1.jpeg' }} >
             </div>
             <div className="container">
                 <div className="page-header__inner">
                     <h2>{breadcrumbTitle}</h2>
                     <div className="thm-breadcrumb__box">
                         <ul className="thm-breadcrumb list-unstyled">
-                            <li><Link href="/">Home</Link></li>
+                            <li><Link href="/">Strona główna</Link></li>
                             <li><span className="icon-angle-left"></span></li>
                             <li>{breadcrumbTitle}</li>
                         </ul>

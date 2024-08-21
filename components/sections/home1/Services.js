@@ -14,9 +14,9 @@ export default function Services() {
                                 <span className="icon-swift-cargo"></span>
                             </div>
                             <div className="services-one__content">
-                                <h3 className="services-one__title"><Link href="service-details">Swift Cargo</Link></h3>
-                                <p className="services-one__text">Porem Ipsum isly dummy text of the printing Lorem Ipsum is
-                                    simply</p>
+                                <h3 className="services-one__title"><Link href="service-details">Kompleksowa oferta instalacyjna</Link></h3>
+                                <p className="services-one__text">Szeroki asortyment materiałów do realizacji każdego projektu.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -28,9 +28,9 @@ export default function Services() {
                                 <span className="icon-proconstruct"></span>
                             </div>
                             <div className="services-one__content">
-                                <h3 className="services-one__title"><Link href="service-details">ProConstruct</Link></h3>
-                                <p className="services-one__text">Porem Ipsum isly dummy text of the printing Lorem Ipsum is
-                                    simply</p>
+                                <h3 className="services-one__title"><Link href="service-details">Wysoka jakość i niezawodność</Link></h3>
+                                <p className="services-one__text">Produkty od renomowanych producentów, gwarantujące trwałość.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -42,9 +42,9 @@ export default function Services() {
                                 <span className="icon-constructo-pro"></span>
                             </div>
                             <div className="services-one__content">
-                                <h3 className="services-one__title"><Link href="service-details">ConstructoPro</Link></h3>
-                                <p className="services-one__text">Porem Ipsum isly dummy text of the printing Lorem Ipsum is
-                                    simply</p>
+                                <h3 className="services-one__title"><Link href="service-details">Fachowe doradztwo i wsparcie</Link></h3>
+                                <p className="services-one__text">Pomoc na każdym etapie, od wyboru produktów po instalację.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -56,9 +56,9 @@ export default function Services() {
                                 <span className="icon-renovate"></span>
                             </div>
                             <div className="services-one__content">
-                                <h3 className="services-one__title"><Link href="service-details">Renovate Right</Link></h3>
-                                <p className="services-one__text">Porem Ipsum isly dummy text of the printing Lorem Ipsum is
-                                    simply</p>
+                                <h3 className="services-one__title"><Link href="service-details">Szybka realizacja zamówień</Link></h3>
+                                <p className="services-one__text">Sprawna dostawa dzięki dobrze zorganizowanej logistyce.
+                                </p>
                             </div>
                         </div>
                     </div>

@@ -31,7 +31,7 @@ export default function Header({ scroll, handleMobileMenu, handlePopup }) {
                                     </div>
                                     <div className="main-menu__call-number">
                                         <p>Potrzebujesz pomocy:</p>
-                                        <h5><Link href="tel:3075550133">166-227-237</Link></h5>
+                                        <h5><Link href="tel:166227237">166-227-237</Link></h5>
                                     </div>
                                 </div>
                             </div>
@@ -68,7 +68,7 @@ export default function Header({ scroll, handleMobileMenu, handlePopup }) {
                                         </div>
                                         <div className="main-menu__call-number">
                                             <p>Potrzebujesz pomocy:</p>
-                                            <h5><Link href="tel:3075550133">166-227-237</Link></h5>
+                                            <h5><Link href="tel:166227237">166-227-237</Link></h5>
                                         </div>
                                     </div>
                                 </div>

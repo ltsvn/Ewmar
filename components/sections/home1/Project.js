@@ -42,18 +42,16 @@ export default function Project() {
                             <div className="project-one__left">
                                 <div className="section-title text-left">
                                     <div className="section-title__tagline-box">
-                                        <span className="section-title__tagline">Latest project</span>
+                                        <span className="section-title__tagline">Nasz sklep</span>
                                     </div>
-                                    <h2 className="section-title__title">Building With Passion Into Satisfy Constructing
+                                    <h2 className="section-title__title">W naszym sklepie możecie znależc wszysko co potrzebujecie dla komfortnego życia
                                     </h2>
                                 </div>
                             </div>
                         </div>
                         <div className="col-xl-6">
                             <div className="project-one__right">
-                                <p className="project-one__text">Et purus duis sollicitudin dignissim habitant. Egestas
-                                    nulla quis venenatis cras sed eu massa eu faucibus. Urna fusce tortor pretium. Et
-                                    purus duis sollicitudin </p>
+                                <p className="project-one__text">Od zaworów, armatury i elementów instalacyjnych, aż po kompleksowe systemy zgrzewane – oferujemy pełne wyposażenie, które spełni potrzeby każdego projektu hydraulicznego. Nasze produkty to synonim trwałości i funkcjonalności, niezależnie od tego, czy budujesz od podstaw, czy modernizujesz istniejące systemy.</p>
                             </div>
                         </div>
                     </div>
@@ -70,7 +68,7 @@ export default function Project() {
                                 <li>
                                     <div className="project-one__box-content">
                                         <div className="single-project-one__bg"
-                                            style={{ backgroundImage: 'url(assets/images/backgrounds/project-1-1.jpg' }} >
+                                            style={{ backgroundImage: 'url(assets/images/backgrounds/project-1-1.png' }} >
                                         </div>
                                     </div>
                                 </li>
@@ -79,7 +77,7 @@ export default function Project() {
                                 <li className="active">
                                     <div className="project-one__box-content">
                                         <div className="single-project-one__bg"
-                                            style={{ backgroundImage: 'url(assets/images/backgrounds/project-1-2.jpg' }} >
+                                            style={{ backgroundImage: 'url(assets/images/backgrounds/project-1-2.png' }} >
                                         </div>
                                     </div>
                                 </li>
@@ -88,7 +86,7 @@ export default function Project() {
                                 <li>
                                     <div className="project-one__box-content">
                                         <div className="single-project-one__bg"
-                                            style={{ backgroundImage: 'url(assets/images/backgrounds/project-1-3.jpg' }} >
+                                            style={{ backgroundImage: 'url(assets/images/backgrounds/project-1-3.png' }} >
                                         </div>
                                     </div>
                                 </li>
@@ -97,7 +95,7 @@ export default function Project() {
                                 <li className="active">
                                     <div className="project-one__box-content">
                                         <div className="single-project-one__bg"
-                                            style={{ backgroundImage: 'url(assets/images/backgrounds/project-1-2.jpg' }} >
+                                            style={{ backgroundImage: 'url(assets/images/backgrounds/project-1-2.png' }} >
                                         </div>
                                     </div>
                                 </li>
@@ -106,7 +104,7 @@ export default function Project() {
                                 <li>
                                     <div className="project-one__box-content">
                                         <div className="single-project-one__bg"
-                                            style={{ backgroundImage: 'url(assets/images/backgrounds/project-1-3.jpg' }} >
+                                            style={{ backgroundImage: 'url(assets/images/backgrounds/project-1-3.png' }} >
                                         </div>
                                     </div>
                                 </li>
@@ -116,6 +114,7 @@ export default function Project() {
                         {/*project Two Single End*/}
                     </Swiper>
                 </div>
+                <div className="swiper-pagination" id="main-slider-pagination"></div>
             </div>
         </section>
         {/* project One End */}

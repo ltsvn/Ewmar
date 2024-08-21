@@ -10,34 +10,23 @@ export default function Preloader() {
                                 <span data-text-preloader="E" className="letters-loading">
                                     E
                                 </span>
-                                <span data-text-preloader="L" className="letters-loading">
-                                    L
+                                <span data-text-preloader="W" className="letters-loading">
+                                    W
                                 </span>
-                                <span data-text-preloader="I" className="letters-loading">
-                                    I
+                                <span data-text-preloader="M" className="letters-loading">
+                                    M
                                 </span>
-                                <span data-text-preloader="E" className="letters-loading">
-                                    E
+                                <span data-text-preloader="A" className="letters-loading">
+                                    A
                                 </span>
-                                <span data-text-preloader="C" className="letters-loading">
-                                    C
-                                </span>
-                                <span data-text-preloader="O" className="letters-loading">
-                                    O
-                                </span>
-                                <span data-text-preloader="N" className="letters-loading">
-                                    N
-                                </span>
-                                <span data-text-preloader="S" className="letters-loading">
-                                    S
+                                <span data-text-preloader="R" className="letters-loading">
+                                    R
                                 </span>
                             </div>
                         </div>   
                     </div>
                 </div>
             </div>
-
-
         </>
     )
 }

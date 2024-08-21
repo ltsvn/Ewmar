@@ -16,28 +16,25 @@ export default function Whychoose() {
                         <div className="why-choose-one__left">
                             <div className="section-title text-left">
                                 <div className="section-title__tagline-box">
-                                    <span className="section-title__tagline">Why Choose Us</span>
+                                    <span className="section-title__tagline">Dlaczego warto wybrać nas</span>
                                 </div>
-                                <h2 className="section-title__title">Logistics made simple <br/>transportation </h2>
+                                <h2 className="section-title__title">Zapewniamy bezpieczny transport produktów </h2>
                             </div>
-                            <p className="why-choose-one__text">Et purus duis sollicitudin dignissim habitant. Egestas nulla
-                                quis<br/> venenatis cras sed eu massa eu faucibus. Urna fusce tortor pretium. Et<br/>
-                                purus duis
-                                sollicitudin dignissim habitant. Egestas nulla </p>
-                            <ul className="why-choose-one__points list-unstyled">
-                                <li>
-                                    <div className="icon">
-                                        <span className="icon-crane"></span>
-                                    </div>
-                                    <h3><Link href="about">Floor installation</Link></h3>
-                                </li>
-                                <li>
-                                    <div className="icon">
-                                        <span className="icon-crane-1"></span>
-                                    </div>
-                                    <h3><Link href="about">Roof leak repair</Link></h3>
-                                </li>
-                            </ul>
+                            <p className="why-choose-one__text">Łazienki, kabiny prysznicowe i inne gabarytne rzeczy kupione w naszym sklepie </p>
+                            {/*<ul className="why-choose-one__points list-unstyled">*/}
+                            {/*    <li>*/}
+                            {/*        <div className="icon">*/}
+                            {/*            <span className="icon-crane"></span>*/}
+                            {/*        </div>*/}
+                            {/*        <h3><Link href="about">Floor installation</Link></h3>*/}
+                            {/*    </li>*/}
+                            {/*    <li>*/}
+                            {/*        <div className="icon">*/}
+                            {/*            <span className="icon-crane-1"></span>*/}
+                            {/*        </div>*/}
+                            {/*        <h3><Link href="about">Roof leak repair</Link></h3>*/}
+                            {/*    </li>*/}
+                            {/*</ul>*/}
                         </div>
                     </div>
                 </div>

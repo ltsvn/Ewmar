@@ -2434,10 +2434,10 @@ ul {
 
 .main-slider__title {
   position: relative;
-  font-size: 80px;
+  font-size: 70px;
   color: var(--elitecons-white);
   font-weight: 900;
-  line-height: 80px;
+  line-height: 70px;
   text-transform: uppercase;
   margin-top: 15px;
   margin-bottom: 31px;
@@ -4880,7 +4880,7 @@ ul {
 .brand-one {
   position: relative;
   display: block;
-  padding: 120px 0 120px;
+  padding-bottom: 120px;
   z-index: 1;
 }
 

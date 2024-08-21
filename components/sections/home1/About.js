@@ -5,12 +5,12 @@ export default function About() {
     return (
         <>
         {/*About One Start */}
-        <section className="about-one">
+        <section className="about-one" id="about">
             <div className="container">
                 <div className="row">
                     <div className="col-xl-6">
                         <div className="about-one__left">
-                            <div className="about-one__img wow slideInLeft" data-wow-delay="100ms"
+                            <div className="about-one__img slideInLeft" data-wow-delay="100ms"
                                 data-wow-duration="2500ms">
                                 <img src="assets/images/resources/about-one-img-1.jpg" alt=""/>
                             </div>
@@ -20,20 +20,20 @@ export default function About() {
                         <div className="about-one__right">
                             <div className="section-title text-left">
                                 <div className="section-title__tagline-box">
-                                    <span className="section-title__tagline">ABOUT US</span>
+                                    <span className="section-title__tagline">O NAS</span>
                                 </div>
-                                <h2 className="section-title__title">We are specialized solutions Building</h2>
+                                <h2 className="section-title__title">Rodzinna Firma Zaufania i Jakości</h2>
                             </div>
-                            <p className="about-one__text">Content Marketing Solutions: Engage, Inform, and Convert Content
-                                Marketing Solutions: Engage, Inform, and Convert </p>
+                            <p className="about-one__text">Jesteśmy rodzinną firmą, która od pokoleń dostarcza najwyższej jakości rozwiązania instalacyjne. Nasza pasja do perfekcji i zaangażowanie w niezawodność sprawiają, że jesteśmy liderem w branży, na którego możesz zawsze liczyć.
+                            </p>
                             <ul className="about-one__points-list list-unstyled">
                                 <li>
                                     <div className="icon">
                                         <span className="icon-analytics"></span>
                                     </div>
                                     <div className="content">
-                                        <h3><Link href="about">Smart Analytics</Link></h3>
-                                        <p>Content Marketing printing Solutions: Engage, <br/> Inform, and Convert</p>
+                                        <h3><Link href="about">Niezawodność i Jakość</Link></h3>
+                                        <p>Nasze produkty i usługi są synonimem trwałości <br/> i niezawodności, na której możesz polegać.</p>
                                     </div>
                                 </li>
                                 <li>
@@ -41,8 +41,8 @@ export default function About() {
                                         <span className="icon-prestige"></span>
                                     </div>
                                     <div className="content">
-                                        <h3><Link href="about">Prestige Construction</Link></h3>
-                                        <p>Content Marketing printing Solutions: Engage, <br/> Inform, and Convert</p>
+                                        <h3><Link href="about">Rodzinna Tradycja</Link></h3>
+                                        <p>Z dumą kontynuujemy tradycje rodzinne, <br/> budując markę opartą na zaufaniu i doświadczeniu.</p>
                                     </div>
                                 </li>
                             </ul>

@@ -35,13 +35,13 @@ export default function Testimonial() {
         <>
 
         {/*Testimonial One Start*/}
-        <section className="testimonial-one">
+        <section className="testimonial-one" id="testimonial">
             <div className="container">
                 <div className="section-title text-center">
                     <div className="section-title__tagline-box">
-                        <span className="section-title__tagline">Testimonial</span>
+                        <span className="section-title__tagline">Opinii</span>
                     </div>
-                    <h2 className="section-title__title">Unlocking Constructing<br/> Excellence Delivering</h2>
+                    <h2 className="section-title__title">Dołącz do naszych zadowolonych klientów</h2>
                 </div>
                 <div className="testimonial-one__swiper-box">
                     <Swiper {...swiperOptions} className="thm-swiper__slider swiper-container">

@@ -7,10 +7,10 @@ const swiperOptions = {
     modules: [Autoplay, Pagination, Navigation],
     slidesPerView: 5,
     spaceBetween: 0,
-    // autoplay: {
-    //     delay: 2500,
-    //     disableOnInteraction: false,
-    // },
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
     loop: true,
 
     // Navigation
@@ -65,53 +65,53 @@ export default function Brand() {
                     <Swiper {...swiperOptions} className="thm-swiper__slider swiper-container">
                     <div className="swiper-wrapper">
                         <SwiperSlide>
-                        <div className="swiper-slide">
-                            <img src="assets/images/brand/brand-1-1.png" alt=""/>
+                        <div className="swiper-slide align-items-center">
+                            <img src="assets/images/brand/brand-1-1.svg" alt="" width={172} height={100}/>
                         </div>{/* /.swiper-slide */}
                         </SwiperSlide>
                         <SwiperSlide>
                         <div className="swiper-slide">
-                            <img src="assets/images/brand/brand-1-2.png" alt=""/>
+                            <img src="assets/images/brand/brand-1-2.svg" alt="" width={172} height={100}/>
                         </div>{/* /.swiper-slide */}
                         </SwiperSlide>
                         <SwiperSlide>
                         <div className="swiper-slide">
-                            <img src="assets/images/brand/brand-1-3.png" alt=""/>
+                            <img src="assets/images/brand/brand-1-3.svg" alt="" width={172} height={100}/>
                         </div>{/* /.swiper-slide */}
                         </SwiperSlide>
                         <SwiperSlide>
                         <div className="swiper-slide">
-                            <img src="assets/images/brand/brand-1-4.png" alt=""/>
+                            <img src="assets/images/brand/brand-1-4.svg" alt="" width={172} height={100}/>
                         </div>{/* /.swiper-slide */}
                         </SwiperSlide>
                         <SwiperSlide>
                         <div className="swiper-slide">
-                            <img src="assets/images/brand/brand-1-5.png" alt=""/>
+                            <img src="assets/images/brand/brand-1-5.svg" alt="" width={172} height={100}/>
                         </div>{/* /.swiper-slide */}
                         </SwiperSlide>
                         <SwiperSlide>
                         <div className="swiper-slide">
-                            <img src="assets/images/brand/brand-1-1.png" alt=""/>
+                            <img src="assets/images/brand/brand-1-6.svg" alt="" width={172} height={100}/>
                         </div>{/* /.swiper-slide */}
                         </SwiperSlide>
                         <SwiperSlide>
                         <div className="swiper-slide">
-                            <img src="assets/images/brand/brand-1-2.png" alt=""/>
+                            <img src="assets/images/brand/brand-1-7.svg" alt="" width={172} height={100}/>
                         </div>{/* /.swiper-slide */}
                         </SwiperSlide>
                         <SwiperSlide>
                         <div className="swiper-slide">
-                            <img src="assets/images/brand/brand-1-3.png" alt=""/>
+                            <img src="assets/images/brand/brand-1-8.svg" alt="" width={172} height={100}/>
                         </div>{/* /.swiper-slide */}
                         </SwiperSlide>
                         <SwiperSlide>
                         <div className="swiper-slide">
-                            <img src="assets/images/brand/brand-1-4.png" alt=""/>
+                            <img src="assets/images/brand/brand-1-9.svg" alt="" width={172} height={100}/>
                         </div>{/* /.swiper-slide */}
                         </SwiperSlide>
                         <SwiperSlide>
                         <div className="swiper-slide">
-                            <img src="assets/images/brand/brand-1-5.png" alt=""/>
+                            <img src="assets/images/brand/brand-1-10.svg" alt="" width={172} height={100}/>
                         </div>{/* /.swiper-slide */}
                         </SwiperSlide>
                     </div>
