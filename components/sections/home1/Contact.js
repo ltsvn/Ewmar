@@ -66,8 +66,8 @@ export default function Contact() {
             {/*Google Map Start*/}
             <section className="google-map-one">
                 <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2554.981864902464!2d22.608165199999995!3d50.180175399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473cbc258f029bdf%3A0x58ad0d40844ac85e!2sKazimierza%20Wielkiego%2015%2C%2037-530%20Sieniawa!5e0!3m2!1suk!2spl!4v1723805541376!5m2!1suk!2spl"
-                    width="800" height="600"  allowFullScreen="" loading="lazy"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1473.0884989590943!2d22.60839235606413!3d50.18040434024791!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473cbc25859a8a27%3A0x55f758337a6ddf8!2zRmlybWEgIkVXTUFSIiBNYXJpdXN6IMWad2nEhWRlcg!5e1!3m2!1spl!2spl!4v1726060046454!5m2!1spl!2spl"
+                    width="800" height="600" allowFullScreen="" loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade" className="google-map__one"></iframe>
 
             </section>
