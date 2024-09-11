@@ -29,8 +29,8 @@ export default function Home() {
                 <Whychoose/>
                 <Counter/>
                 {/*<Faq/>*/}
-                {/*<Contact/>*/}
                 <Testimonai/>
+                <Contact/>
 
                 
             </Layout>

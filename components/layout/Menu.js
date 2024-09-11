@@ -34,7 +34,7 @@ export default function Menu() {
                     <Link href="#testimonial">Opinii</Link>
                 </li>
                 <li>
-                    <Link href="/contact">Kontakt</Link>
+                    <Link href="#contact">Kontakt</Link>
                 </li>
             </ul>
         </>

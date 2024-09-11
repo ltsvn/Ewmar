@@ -53,7 +53,7 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                                 {/*</li>*/}
                                 <li><Link href="#services">Usługi</Link></li>
                                 <li><Link href="#testimonial">Opinii</Link></li>
-                                <li><Link href="/contact">Kontakt</Link></li>
+                                <li><Link href="#contact">Kontakt</Link></li>
                             </ul>
                         </div>
                     </div>
