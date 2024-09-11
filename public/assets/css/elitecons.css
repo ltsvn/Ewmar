@@ -14195,14 +14195,15 @@ ul {
   font-weight: 700;
   line-height: 24px;
   margin-bottom: 10px;
+  color: white;
 }
 
 .contact-page__contact-list li .content>p {
-  color: var(--elitecons-gray);
+  color: white;
 }
 
 .contact-page__contact-list li .content>p>a {
-  color: var(--elitecons-gray);
+  color: white;
 }
 
 .contact-page__contact-list li .content>p>a:hover {
