@@ -44,7 +44,7 @@ export default function Project() {
                                     <div className="section-title__tagline-box">
                                         <span className="section-title__tagline">Nasz sklep</span>
                                     </div>
-                                    <h2 className="section-title__title">W naszym sklepie możecie znależc wszysko co potrzebujecie dla komfortnego życia
+                                    <h2 className="section-title__title">W naszym sklepie możecie znaleźć wszystko co potrzebujecie dla komfortnego życia
                                     </h2>
                                 </div>
                             </div>
