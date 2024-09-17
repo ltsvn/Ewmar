@@ -4409,6 +4409,41 @@ ul {
   position: relative;
   display: block;
 }
+.gallery-container {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scrollbar-width: thin; /* W przypadku Firefoxa */
+  padding: 10px;
+}
+
+.gallery-item {
+  flex: 0 0 auto;
+  margin-right: 10px;
+}
+
+.gallery-item img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  max-height: 300px; /* Wysokość obrazków możesz dostosować do własnych potrzeb */
+}
+
+.gallery-container::-webkit-scrollbar {
+  height: 8px;
+}
+
+.gallery-container::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px;
+}
+
+.gallery-container::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
 
 .project-one__box {
   position: relative;

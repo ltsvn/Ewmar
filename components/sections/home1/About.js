@@ -22,7 +22,7 @@ export default function About() {
                                 <div className="section-title__tagline-box">
                                     <span className="section-title__tagline">O NAS</span>
                                 </div>
-                                <h2 className="section-title__title">Rodzinna Firma Zaufania i Jakości</h2>
+                                <h2 className="section-title__title">Rodzinna firma zaufania i jakości</h2>
                             </div>
                             <p className="about-one__text">Jesteśmy rodzinną firmą, która od pokoleń dostarcza najwyższej jakości rozwiązania instalacyjne. Nasza pasja do perfekcji i zaangażowanie w niezawodność sprawiają, że jesteśmy liderem w branży, na którego możesz zawsze liczyć.
                             </p>

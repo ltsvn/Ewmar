@@ -20,7 +20,7 @@ export default function Whychoose() {
                                 </div>
                                 <h2 className="section-title__title">Wszystko, czego potrzebujesz do remontu i budowy w jednym miejscu! </h2>
                             </div>
-                            <p className="why-choose-one__text">Łazienki, kabiny prysznicowe i inne gabarytne rzeczy kupione w naszym sklepie </p>
+                            <p className="why-choose-one__text">Oferujemy specjalistyczne materiały oraz narzędzia instalacyjne z branży elektrycznej, hydraulicznej i gazowej. Bez względu na to, czy budujesz od podstaw, czy modernizujesz istniejące systemy, znajdziesz u nas wszystko, co niezbędne. Gwarantujemy najwyższą jakość produktów oraz wsparcie doświadczonych doradców, którzy pomogą Ci na każdym etapie remontu.</p>
                             {/*<ul className="why-choose-one__points list-unstyled">*/}
                             {/*    <li>*/}
                             {/*        <div className="icon">*/}
