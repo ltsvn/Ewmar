@@ -10,7 +10,11 @@
     "sass": "sass --watch public/assets/scss/main.scss:public/assets/css/main.css"
   },
   "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/material": "^6.1.0",
     "axios": "^1.7.7",
+    "cors": "^2.8.5",
     "isotope-layout": "^3.0.6",
     "next": "13.4.19",
     "react": "18.2.0",

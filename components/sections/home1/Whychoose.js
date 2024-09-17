@@ -18,7 +18,7 @@ export default function Whychoose() {
                                 <div className="section-title__tagline-box">
                                     <span className="section-title__tagline">Dlaczego warto wybrać nas</span>
                                 </div>
-                                <h2 className="section-title__title">Zapewniamy bezpieczny transport produktów </h2>
+                                <h2 className="section-title__title">Wszystko, czego potrzebujesz do remontu i budowy w jednym miejscu! </h2>
                             </div>
                             <p className="why-choose-one__text">Łazienki, kabiny prysznicowe i inne gabarytne rzeczy kupione w naszym sklepie </p>
                             {/*<ul className="why-choose-one__points list-unstyled">*/}

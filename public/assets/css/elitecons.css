@@ -225,7 +225,6 @@ ul {
   font-size: 60px;
   line-height: 58px;
   font-weight: 700;
-  text-transform: capitalize;
   margin: 12px 0 0;
   letter-spacing: -1.2px;
 }
@@ -237,6 +236,22 @@ ul {
   justify-content: center;
   margin: 20px;
 }
+.swiper{
+  padding: 0 40px !important;
+}
+
+.swiper-button-next, .swiper-button-prev {
+  font-size: 24px !important;
+}
+
+.swiper-button-next, .swiper-button-prev {
+  color: #051659 !important;
+}
+
+.swiper-button-next:hover, .swiper-button-prev:hover {
+  color: #334466 !important;
+}
+
 
 .review-card {
   background-color: #f9f9f9;
@@ -14241,6 +14256,37 @@ ul {
 
 .contact-page__contact-list li .content>p>a:hover {
   color: var(--elitecons-base);
+}
+
+.contact-page__hours {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+}
+
+.contact-page__hours .icon {
+  font-size: 30px;
+  margin-right: 15px;
+  color: #ff9800;  /* Kolor ikony */
+}
+
+.contact-page__hours .content h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #051659;
+}
+
+.contact-page__hours .content p {
+  font-size: 16px;
+  color: #333;
+}
+
+.contact-page__hours strong {
+  color: #ff9800;  /* Kolor wyróżnienia godzin */
 }
 
 .contact-page__social {
