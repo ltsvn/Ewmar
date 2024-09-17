@@ -43,12 +43,12 @@ export default function Banner() {
                     <SwiperSlide>
                     <div className="swiper-slide">
                         <div className="main-slider__bg"
-                            style={{ backgroundImage: 'url(assets/images/backgrounds/slider-1-1.jpg' }} ></div>
+                            style={{ backgroundImage: 'url(assets/images/gallery/5.jpg' }} ></div>
                         <div className="main-slider__shape-1"
                             style={{ backgroundImage: 'url(assets/images/shapes/main-slider-shape-1.jpg' }} ></div>
-                        <div className="main-slider__img">
-                            <img src="assets/images/backgrounds/jeden.png" alt=""/>
-                        </div>
+                        {/*<div className="main-slider__img">*/}
+                        {/*    <img src="assets/images/backgrounds/jeden.png" alt=""/>*/}
+                        {/*</div>*/}
                         <div className="container">
                             <div className="row">
                                 <div className="col-xl-12">
