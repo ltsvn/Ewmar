@@ -62,18 +62,18 @@ export default function Banner() {
                                         </p>
                                         <div className="main-slider__btn-and-video-box">
                                             <div className="main-slider__btn-box">
-                                                <Link href="contact" className="main-slider__btn thm-btn">Skontaktuj się z nami<span className="icon-dabble-arrow-right"></span></Link>
+                                                <Link href="#contact" className="main-slider__btn thm-btn">Skontaktuj się z nami<span className="icon-dabble-arrow-right"></span></Link>
                                             </div>
-                                            <div className="main-slider__video-link">
-                                                <a onClick={() => setOpen(true)}
-                                                    className="video-popup">
-                                                    <div className="main-slider__video-icon">
-                                                        <span className="icon-play"></span>
-                                                        <i className="ripple"></i>
-                                                    </div>
-                                                </a>
-                                                <h4 className="main-slider__video-text">Zobacz Nas w Akcji</h4>
-                                            </div>
+                                            {/*<div className="main-slider__video-link">*/}
+                                            {/*    <a onClick={() => setOpen(true)}*/}
+                                            {/*        className="video-popup">*/}
+                                            {/*        <div className="main-slider__video-icon">*/}
+                                            {/*            <span className="icon-play"></span>*/}
+                                            {/*            <i className="ripple"></i>*/}
+                                            {/*        </div>*/}
+                                            {/*    </a>*/}
+                                            {/*    <h4 className="main-slider__video-text">Zobacz Nas w Akcji</h4>*/}
+                                            {/*</div>*/}
                                         </div>
                                     </div>
                                 </div>

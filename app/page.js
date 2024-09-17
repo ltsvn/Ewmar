@@ -21,9 +21,9 @@ export default function Home() {
                 <Banner />
                 <Services/>
                 <About/>
-                <Services2/>
                 <Slidingtext/>
                 <Project/>
+                <Services2/>
                 <Brand/>
                 {/*<Pricing/>*/}
                 <Whychoose/>

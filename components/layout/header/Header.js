@@ -25,15 +25,15 @@ export default function Header({ scroll, handleMobileMenu, handlePopup }) {
                                     {/*    <Link href="#" className="main-menu__search search-toggler icon-search"></Link>*/}
                                     {/*</div>*/}
                                 </div>
-                                <div className="main-menu__call">
-                                    <div className="main-menu__call-icon">
-                                        <img src="assets/images/icon/main-menu-comment-icon.png" alt=""/>
-                                    </div>
-                                    <div className="main-menu__call-number">
-                                        <p>Potrzebujesz pomocy:</p>
-                                        <h5><Link href="tel:166227237">166-227-237</Link></h5>
-                                    </div>
-                                </div>
+                                {/*<div className="main-menu__call">*/}
+                                {/*    <div className="main-menu__call-icon">*/}
+                                {/*        <img src="assets/images/icon/main-menu-comment-icon.png" alt=""/>*/}
+                                {/*    </div>*/}
+                                {/*    <div className="main-menu__call-number">*/}
+                                {/*        <p>Potrzebujesz pomocy:</p>*/}
+                                {/*        <h5><Link href="tel:166227237">166-227-237</Link></h5>*/}
+                                {/*    </div>*/}
+                                {/*</div>*/}
                             </div>
                         </div>
                     </div>
@@ -62,15 +62,15 @@ export default function Header({ scroll, handleMobileMenu, handlePopup }) {
                                         {/*    <Link href="#" className="main-menu__search search-toggler icon-search" onClick={handlePopup}></Link>*/}
                                         {/*</div>*/}
                                     </div>
-                                    <div className="main-menu__call">
-                                        <div className="main-menu__call-icon">
-                                            <img src="assets/images/icon/main-menu-comment-icon.png" alt=""/>
-                                        </div>
-                                        <div className="main-menu__call-number">
-                                            <p>Potrzebujesz pomocy:</p>
-                                            <h5><Link href="tel:166227237">166-227-237</Link></h5>
-                                        </div>
-                                    </div>
+                                    {/*<div className="main-menu__call">*/}
+                                    {/*    <div className="main-menu__call-icon">*/}
+                                    {/*        <img src="assets/images/icon/main-menu-comment-icon.png" alt=""/>*/}
+                                    {/*    </div>*/}
+                                    {/*    <div className="main-menu__call-number">*/}
+                                    {/*        <p>Potrzebujesz pomocy:</p>*/}
+                                    {/*        <h5><Link href="tel:166227237">166-227-237</Link></h5>*/}
+                                    {/*    </div>*/}
+                                    {/*</div>*/}
                                 </div>
                             </div>
                         </div>

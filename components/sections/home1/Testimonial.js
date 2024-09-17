@@ -1,6 +1,8 @@
 'use client'
 import { Autoplay, Navigation, Pagination } from "swiper/modules"
 import { Swiper, SwiperSlide } from "swiper/react"
+import {useEffect, useState} from "react";
+import axios from "axios";
 
 
 const swiperOptions = {
@@ -31,6 +33,26 @@ const swiperOptions = {
 
 
 export default function Testimonial() {
+    const [reviews, setReviews] = useState([]);
+    const apiKey = 'AIzaSyCmmVt9h1vtUBRYFJ9s_865LgLWftq4CiI'; // Wstaw swój klucz API tutaj
+    const placeId = 'ChIJJ4qahSW8PEcR-N2mN4N1XwU'; // Zastąp swoim ID miejsca (Place ID)
+
+    useEffect(() => {
+        const fetchReviews = async () => {
+            try {
+                const response = await axios.get(
+                    `https://maps.googleapis.com/maps/api/place/details/json?place_id=${placeId}&key=${apiKey}`
+                );
+                setReviews(response.data.result.reviews);
+            } catch (error) {
+                console.error('Błąd pobierania opinii', error);
+            }
+        };
+
+        fetchReviews();
+    }, [apiKey, placeId]);
+
+    console.log(reviews)
     return (
         <>
 
@@ -43,123 +65,18 @@ export default function Testimonial() {
                     </div>
                     <h2 className="section-title__title">Dołącz do naszych zadowolonych klientów</h2>
                 </div>
-                <div className="testimonial-one__swiper-box">
-                    <Swiper {...swiperOptions} className="thm-swiper__slider swiper-container">
-                        <div className="swiper-wrapper">
-
-                            {/*Testimonial One Single Start*/}
-                            <SwiperSlide>
-                            <div className="swiper-slide">
-                                <div className="testimonial-one__single">
-                                    <div className="row">
-                                        <div className="col-xl-6 col-lg-6">
-                                            <div className="testimonial-one__content">
-                                                <div className="testimonial-one__quote">
-                                                    <span className="icon-quote"></span>
-                                                </div>
-                                                <div className="testimonial-one__client-info">
-                                                    <h3 className="testimonial-one__title">Brooklyn Simmons</h3>
-                                                    <p className="testimonial-one__sub-title">President of Sales</p>
-                                                </div>
-                                                <p className="testimonial-one__text">There are many variations of pas of
-                                                    Lorem
-                                                    Ipsu
-                                                    thei available, but the desig majo have suffered alterati in some
-                                                    form.There
-                                                    a are many variations of the ma passages of Lorem ispum is most an
-                                                    valuable
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div className="col-xl-6 col-lg-6">
-                                            <div className="testimonial-one__img">
-                                                <img src="assets/images/testimonial/testimonial-1-1.jpg" alt=""/>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                <div className="reviews-container">
+                    {reviews.length > 0 ? (
+                        reviews.map((review, index) => (
+                            <div key={index} className="review-card">
+                                <h3>{review.author_name}</h3>
+                                <p className="rating">Ocena: {review.rating}/5</p>
+                                <p>{review.text}</p>
                             </div>
-                            </SwiperSlide>
-                            {/*Testimonial One Single End*/}
-                            {/*Testimonial One Single Start*/}
-                            <SwiperSlide>
-                            <div className="swiper-slide">
-                                <div className="testimonial-one__single">
-                                    <div className="row">
-                                        <div className="col-xl-6 col-lg-6">
-                                            <div className="testimonial-one__content">
-                                                <div className="testimonial-one__quote">
-                                                    <span className="icon-quote"></span>
-                                                </div>
-                                                <div className="testimonial-one__client-info">
-                                                    <h3 className="testimonial-one__title">Adam Smith</h3>
-                                                    <p className="testimonial-one__sub-title">President of Sales</p>
-                                                </div>
-                                                <p className="testimonial-one__text">There are many variations of pas of
-                                                    Lorem
-                                                    Ipsu
-                                                    thei available, but the desig majo have suffered alterati in some
-                                                    form.There
-                                                    a are many variations of the ma passages of Lorem ispum is most an
-                                                    valuable
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div className="col-xl-6 col-lg-6">
-                                            <div className="testimonial-one__img">
-                                                <img src="assets/images/testimonial/testimonial-1-2.jpg" alt=""/>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            </SwiperSlide>
-                            {/*Testimonial One Single End*/}
-                            {/*Testimonial One Single Start*/}
-                            <SwiperSlide>
-                            <div className="swiper-slide">
-                                <div className="testimonial-one__single">
-                                    <div className="row">
-                                        <div className="col-xl-6 col-lg-6">
-                                            <div className="testimonial-one__content">
-                                                <div className="testimonial-one__quote">
-                                                    <span className="icon-quote"></span>
-                                                </div>
-                                                <div className="testimonial-one__client-info">
-                                                    <h3 className="testimonial-one__title">Harbert Spin</h3>
-                                                    <p className="testimonial-one__sub-title">President of Sales</p>
-                                                </div>
-                                                <p className="testimonial-one__text">There are many variations of pas of
-                                                    Lorem
-                                                    Ipsu
-                                                    thei available, but the desig majo have suffered alterati in some
-                                                    form.There
-                                                    a are many variations of the ma passages of Lorem ispum is most an
-                                                    valuable
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div className="col-xl-6 col-lg-6">
-                                            <div className="testimonial-one__img">
-                                                <img src="assets/images/testimonial/testimonial-1-3.jpg" alt=""/>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            </SwiperSlide>
-                            {/*Testimonial One Single End*/}
-                        </div>
-                    </Swiper>
-                    {/* If we need navigation buttons */}
-                    <div className="testimonial-one__nav">
-                        <div className="swiper-button-prev1 h1p">
-                            <i className="icon-arrow-left"></i>
-                        </div>
-                        <div className="swiper-button-next1 h1n">
-                            <i className="icon-arrow-right"></i>
-                        </div>
-                    </div>
+                        ))
+                    ) : (
+                        <p>Ładowanie opinii...</p>
+                    )}
                 </div>
             </div>
         </section>

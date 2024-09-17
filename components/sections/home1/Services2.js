@@ -35,7 +35,7 @@ export default function Services2() {
                         <div className="services-two__single">
                             <div className="services-two__img-box">
                                 <div className="services-two__img">
-                                    <img src="assets/images/services/services-2-2.jpg" alt=""/>
+                                    <img src="assets/images/services/services-2-4.jpg" alt=""/>
                                 </div>
                             </div>
                             <div className="services-two__content">
@@ -52,7 +52,7 @@ export default function Services2() {
                         <div className="services-two__single">
                             <div className="services-two__img-box">
                                 <div className="services-two__img">
-                                    <img src="assets/images/services/services-2-3.jpg" alt=""/>
+                                    <img src="assets/images/services/services-2-2.jpg" alt=""/>
                                 </div>
                             </div>
                             <div className="services-two__content">
@@ -69,7 +69,7 @@ export default function Services2() {
                         <div className="services-two__single">
                             <div className="services-two__img-box">
                                 <div className="services-two__img">
-                                    <img src="assets/images/services/services-2-4.jpg" alt=""/>
+                                    <img src="assets/images/services/services-2-3.jpg" alt=""/>
                                 </div>
                             </div>
                             <div className="services-two__content">
