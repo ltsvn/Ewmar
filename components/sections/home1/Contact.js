@@ -59,7 +59,7 @@ export default function Contact() {
                                             <h3>Godziny Otwarcia</h3>
                                             <p>
                                                 Zapraszamy od poniedziałku do piątku w godzinach <strong>8:00 do 16:00</strong><br />
-                                                oraz w soboty od <strong>8:00 do 13:00</strong>.
+                                                oraz w soboty od <strong>8:00 do 13:00</strong>
                                             </p>
                                         </div>
                                     </div>

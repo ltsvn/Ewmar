@@ -31,7 +31,7 @@ export default function Menu() {
                     <Link href="#services">Usługi</Link>
                 </li>
                 <li>
-                    <Link href="#testimonial">Opinii</Link>
+                    <Link href="#testimonial">Opinie</Link>
                 </li>
                 <li>
                     <Link href="#contact">Kontakt</Link>

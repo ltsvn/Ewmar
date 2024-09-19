@@ -65,7 +65,7 @@ export default function Testimonial() {
                 <div className="container">
                     <div className="section-title text-center">
                         <div className="section-title__tagline-box">
-                            <span className="section-title__tagline">Opinii</span>
+                            <span className="section-title__tagline">Opinie</span>
                         </div>
                         <h2 className="section-title__title">Dołącz do naszych zadowolonych klientów</h2>
                     </div>
