@@ -47,7 +47,7 @@ export default function Testimonial() {
     useEffect(() => {
         const fetchReviews = async () => {
             try {
-                const response = await axios.get('http://localhost:5001/api/reviews');
+                const response = await axios.get('/api/reviews');
                 setReviews(response.data);
             } catch (error) {
                 console.error('Błąd pobierania opinii', error);
