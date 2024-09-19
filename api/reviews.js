@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export default async function handler(req, res) {
-    const apiKey = 'AIzaSyCmmVt9h1vtUBRYFJ9s_865LgLWftq4CiI';  // Twój klucz API Google
+    const apiKey = process.env.GOOGLE_API_KEY;  // Twój klucz API Google
     const placeId = 'ChIJJ4qahSW8PEcR-N2mN4N1XwU';  // Twój Place ID
 
     try {
@@ -10,6 +10,7 @@ export default async function handler(req, res) {
         );
         res.status(200).json(response.data.result.reviews);  // Zwracamy recenzje w formacie JSON
     } catch (error) {
-        res.status(500).json({ error: 'Błąd serwera' });  // W razie błędu zwracamy status 500
+        console.error('Error fetching reviews:', error);  // Loguj błąd do konsoli
+        res.status(500).json({ error: 'Błąd serwera', details: error.message });  // Zwróć błąd do klienta z informacją o problemie
     }
 }
