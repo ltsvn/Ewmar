@@ -29,7 +29,7 @@ export default function Project() {
                                             <span className="section-title__tagline">Nasz sklep</span>
                                         </div>
                                         <h2 className="section-title__title">
-                                            W naszym sklepie możecie znaleźć wszystko co potrzebujecie dla komfortnego życia
+                                            W naszym sklepie znajdziecie wszystko, czego potrzebujecie do komfortowego życia
                                         </h2>
                                     </div>
                                 </div>
@@ -37,7 +37,7 @@ export default function Project() {
                             <div className="col-xl-6">
                                 <div className="project-one__right">
                                     <p className="project-one__text">
-                                        Od zaworów, armatury i elementów instalacyjnych, aż po kompleksowe systemy zgrzewane – oferujemy pełne wyposażenie, które spełni potrzeby każdego projektu hydraulicznego.
+                                        Zajmujemy się szeroką gamą produktów – od zaworów i elementów instalacyjnych, przez kompleksowe systemy instalacyjne (prasowane, zgrzewane i lutowane), aż po wyposażenie łazienek oraz instalacje elektryczne (przewody, zabezpieczenia i inne elementy.
                                     </p>
                                 </div>
                             </div>

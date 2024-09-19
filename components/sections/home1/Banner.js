@@ -57,7 +57,7 @@ export default function Banner() {
                                             <p className="main-slider__sub-title">Witamy w naszej firmie</p>
                                             <div className="main-slider__sub-title-shape"></div>
                                         </div>
-                                        <h2 className="main-slider__title">Innowacyjne części i instalacje –  <br/> perfekcja w każdym detalu.</h2>
+                                        <h2 className="main-slider__title">Innowacyjne części i instalacje –  <br/> perfekcja w każdym detalu</h2>
                                         <p className="main-slider__text">Gwarantujemy jakość i niezawodność, <br/> dostarczając kompleksowe rozwiązania techniczne.
                                         </p>
                                         <div className="main-slider__btn-and-video-box">

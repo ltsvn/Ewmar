@@ -57,6 +57,8 @@ export default function Testimonial() {
         fetchReviews();
     }, []);
 
+    console.log(reviews)
+
     return (
         <>
             <section className="testimonial-one" id="testimonial">
