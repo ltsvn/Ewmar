@@ -1,7 +1,8 @@
-import axios from 'axios';
+import axios from "axios";
+
 
 export default async function handler(req, res) {
-    const apiKey = process.env.GOOGLE_API_KEY;
+    const apiKey = "AIzaSyCmmVt9h1vtUBRYFJ9s_865LgLWftq4CiI";
     const placeId = 'ChIJJ4qahSW8PEcR-N2mN4N1XwU';
 
     try {
