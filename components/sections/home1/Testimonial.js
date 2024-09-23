@@ -9,6 +9,7 @@ import 'swiper/css/pagination';
 import axios from "axios";
 
 
+
 const swiperOptions = {
     modules: [Autoplay, Pagination, Navigation],
     slidesPerView: 1,
@@ -40,6 +41,7 @@ const swiperOptions = {
     },
 };
 
+
 export default function Testimonial() {
     const [reviews, setReviews] = useState([]);
 
@@ -56,7 +58,6 @@ export default function Testimonial() {
         fetchReviews();
     }, []);
 
-    console.log(reviews)
 
     return (
         <>
@@ -68,7 +69,7 @@ export default function Testimonial() {
                         </div>
                         <h2 className="section-title__title">Dołącz do naszych zadowolonych klientów</h2>
                     </div>
-                    <div className="reviews-container">
+                    <div className="reviews-container" style={{ width: '100%' }}>
                         {reviews.length > 0 ? (
                             <Swiper {...swiperOptions} className="swiper">
                                 {reviews.map((review, index) => (
@@ -91,7 +92,7 @@ const ReviewCard = ({ review }) => {
     return (
         <Card sx={{
             width: '90%',
-            margin: '0 auto',
+            margin: '20px auto',
             boxShadow: '0 6px 18px rgba(0,0,0,0.1)',
             borderRadius: '16px',
             transition: 'transform 0.3s ease-in-out',

@@ -37,6 +37,8 @@
   --elitecons-primary-rgb: 243, 243, 243;
   --elitecons-bdr-color: #D0D0D0;
   --elitecons-bdr-rgb: 208, 208, 208;
+  --title-font: black;
+  --elitecons-text-dark: black;
 }
 
 .row {
@@ -178,7 +180,7 @@ ul {
 }
 
 .section-separator {
-  border-color: var(--elitecons-border);
+  border-color: var(--elitecons-base);
   border-width: 1px;
   margin-top: 0;
   margin-bottom: 0;
@@ -238,6 +240,7 @@ ul {
 }
 .swiper{
   padding: 0 40px !important;
+  overflow: hidden !important;
 }
 
 .swiper-button-next, .swiper-button-prev {
