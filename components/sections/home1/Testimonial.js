@@ -6,7 +6,6 @@ import {Avatar, Card, CardContent, Rating, Typography} from "@mui/material";
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import {blue} from "@mui/material/colors";
 import axios from "axios";
 
 
