@@ -2,12 +2,12 @@
 import { Autoplay, Navigation, Pagination } from "swiper/modules"
 import { Swiper, SwiperSlide } from "swiper/react"
 import { useEffect, useState } from "react";
-import axios from "axios";
 import {Avatar, Card, CardContent, Rating, Typography} from "@mui/material";
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import {blue} from "@mui/material/colors";
+import axios from "axios";
 
 
 const swiperOptions = {
