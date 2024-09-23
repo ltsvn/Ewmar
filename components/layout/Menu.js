@@ -14,6 +14,9 @@ export default function Menu() {
                 <li>
                     <Link href="#about">O nas</Link>
                 </li>
+                <li>
+                    <Link href="#shop">Sklep</Link>
+                </li>
                 {/*<li>*/}
                 {/*    <Link href="gallery">Gallery</Link>*/}
                 {/*</li>*/}

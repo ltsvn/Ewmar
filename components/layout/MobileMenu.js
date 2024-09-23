@@ -40,6 +40,9 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                             <ul className="main-menu__list">
                                 <li><Link href="/">Strona główna</Link></li>
                                 <li><Link href="#about">O nas</Link></li>
+                                <li>
+                                    <Link href="#shop">Sklep</Link>
+                                </li>
                                 {/*<li className={isActive.key == 2 ? "dropdown current" : "dropdown"}><Link href="/#">Pages</Link>*/}
                                 {/*    <ul style={{ display: `${isActive.key == 2 ? "block" : "none"}` }}>                                 */}
                                 {/*        <li><Link href="team">Team</Link></li>*/}
