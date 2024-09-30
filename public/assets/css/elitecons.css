@@ -3994,7 +3994,8 @@ ul {
 
 .services-one__icon {
   position: relative;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
 }
 
 .services-one__icon span {
@@ -4903,7 +4904,6 @@ ul {
   text-align: center;
   display: flex;
   align-items: center;
-  justify-content: center;
   margin-bottom: 21px;
 }
 

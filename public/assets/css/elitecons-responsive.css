@@ -1440,6 +1440,12 @@
 
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
+    .services-two__content {
+        text-align: center !important;
+    }
+    .services-one__content {
+        text-align: center !important;
+    }
     .section-title__title br {
         display: none;
     }
@@ -1457,12 +1463,12 @@
     .about-one__points-list li {
         flex-wrap: wrap;
         flex-direction: column;
-        align-items: baseline;
     }
 
     .about-one__points-list li .content {
         margin-left: 0;
         margin-top: 20px;
+        text-align: center;
     }
 
     .project-one__right {
