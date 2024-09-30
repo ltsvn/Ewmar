@@ -2963,6 +2963,11 @@
         align-items: baseline;
     }
 
+    .main-slider__btn {
+        padding: 14px 9px !important;
+    }
+
+
     .main-slider__video-link {
         margin-left: 0;
         margin-top: 20px;
