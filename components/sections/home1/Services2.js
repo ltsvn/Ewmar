@@ -1,5 +1,18 @@
+'use client';
 import Link from "next/link"
+import { useRef, useEffect } from "react";
+
+const images = Array.from({ length: 12 }, (_, index) => ({
+    img: `assets/images/services-gallery/${index + 1}.webp`,
+    title: `Project Image ${index + 1}`
+}));
 export default function Services2() {
+    const containerRef = useRef(null);
+
+    useEffect(() => {
+        const container = containerRef.current;
+        // Opcjonalnie: można dodać automatyczne przewijanie lub inne interakcje tutaj
+    }, []);
     return (
         <>
 
@@ -82,6 +95,29 @@ export default function Services2() {
                     </div>
                     {/*Services Two Single End*/}
                     </div>
+                </div>
+            </div>
+            <div className="project-one__bottom">
+                <div className="project-one__carousel-container" ref={containerRef}>
+                    <div className="gallery-container">
+                        {images.map((image, index) => (
+                            <div className="gallery-item" key={index}>
+                                <img src={image.img} alt={image.title} />
+                            </div>
+                        ))}
+                    </div>
+                    {/*<ImageList variant="masonry" cols={4} gap={8}>*/}
+                    {/*    {images.map((item) => (*/}
+                    {/*        <ImageListItem key={item.img}>*/}
+                    {/*            <img*/}
+                    {/*                srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}*/}
+                    {/*                src={`${item.img}?w=248&fit=crop&auto=format`}*/}
+                    {/*                alt={item.title}*/}
+                    {/*                loading="lazy"*/}
+                    {/*            />*/}
+                    {/*        </ImageListItem>*/}
+                    {/*    ))}*/}
+                    {/*</ImageList>*/}
                 </div>
             </div>
         </section>

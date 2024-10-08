@@ -2351,10 +2351,10 @@ ul {
   background-position: center;
   -webkit-transform: scale(1);
   transform: scale(1);
-  -webkit-transition: opacity 1500ms ease-in, -webkit-transform 7000ms ease;
-  transition: opacity 1500ms ease-in, -webkit-transform 7000ms ease;
-  transition: transform 7000ms ease, opacity 1500ms ease-in;
-  transition: transform 7000ms ease, opacity 1500ms ease-in, -webkit-transform 7000ms ease;
+  -webkit-transition: opacity 1000ms ease-in, -webkit-transform 1000ms ease;
+  transition: opacity 1000ms ease-in, -webkit-transform 1000ms ease;
+  transition: transform 1000ms ease, opacity 1000ms ease-in;
+  transition: transform 2000ms ease, opacity 1000ms ease-in, -webkit-transform 2000ms ease;
   
 }
 
@@ -2499,11 +2499,11 @@ ul {
   -webkit-transform-origin: bottom;
   -ms-transform-origin: bottom;
   transform-origin: bottom;
-  -webkit-transition: all 1500ms ease;
-  -moz-transition: all 1500ms ease;
-  -ms-transition: all 1500ms ease;
-  -o-transition: all 1500ms ease;
-  transition: all 1500ms ease;
+  -webkit-transition: all 1000ms ease;
+  -moz-transition: all 1000ms ease;
+  -ms-transition: all 1000ms ease;
+  -o-transition: all 1000ms ease;
+  transition: all 1000ms ease;
 }
 
 .main-slider .swiper-slide-active .main-slider__title {
@@ -2511,10 +2511,10 @@ ul {
   -webkit-transform: perspective(400px) rotateY(0deg) translateY(0px);
   -ms-transform: perspective(400px) rotateY(0deg) translateY(0px);
   transform: perspective(400px) rotateY(0deg) translateY(0px);
-  -webkit-transition-delay: 1500ms;
-  -moz-transition-delay: 1500ms;
-  -ms-transition-delay: 1500ms;
-  -o-transition-delay: 1500ms;
+  -webkit-transition-delay: 1000ms;
+  -moz-transition-delay: 1000ms;
+  -ms-transition-delay: 1000ms;
+  -o-transition-delay: 1000ms;
 }
 
 .main-slider__text {
@@ -2529,11 +2529,11 @@ ul {
   -webkit-transform-origin: bottom;
   -ms-transform-origin: bottom;
   transform-origin: bottom;
-  -webkit-transition: all 1500ms ease;
-  -moz-transition: all 1500ms ease;
-  -ms-transition: all 1500ms ease;
-  -o-transition: all 1500ms ease;
-  transition: all 1500ms ease;
+  -webkit-transition: all 1000ms ease;
+  -moz-transition: all 1000ms ease;
+  -ms-transition: all 1000ms ease;
+  -o-transition: all 1000ms ease;
+  transition: all 1000ms ease;
 }
 
 .main-slider .swiper-slide-active .main-slider__text {
@@ -2541,11 +2541,11 @@ ul {
   -webkit-transform: perspective(400px) rotateY(0deg) translateY(0px);
   -ms-transform: perspective(400px) rotateY(0deg) translateY(0px);
   transform: perspective(400px) rotateY(0deg) translateY(0px);
-  -webkit-transition-delay: 1500ms;
-  -moz-transition-delay: 1500ms;
-  -ms-transition-delay: 1500ms;
-  -o-transition-delay: 1500ms;
-  transition-delay: 1500ms;
+  -webkit-transition-delay: 1000ms;
+  -moz-transition-delay: 1000ms;
+  -ms-transition-delay: 1000ms;
+  -o-transition-delay: 1000ms;
+  transition-delay: 1000ms;
 }
 
 .main-slider__btn-and-video-box {
@@ -2561,11 +2561,11 @@ ul {
   -webkit-transform-origin: bottom;
   -ms-transform-origin: bottom;
   transform-origin: bottom;
-  -webkit-transition: all 1500ms ease;
-  -moz-transition: all 1500ms ease;
-  -ms-transition: all 1500ms ease;
-  -o-transition: all 1500ms ease;
-  transition: all 1500ms ease;
+  -webkit-transition: all 1000ms ease;
+  -moz-transition: all 1000ms ease;
+  -ms-transition: all 1000ms ease;
+  -o-transition: all 1000ms ease;
+  transition: all 1000ms ease;
 }
 
 .main-slider .swiper-slide-active .main-slider__btn-and-video-box {
@@ -2573,11 +2573,11 @@ ul {
   -webkit-transform: perspective(400px) rotateY(0deg) translateY(0px);
   -ms-transform: perspective(400px) rotateY(0deg) translateY(0px);
   transform: perspective(400px) rotateY(0deg) translateY(0px);
-  -webkit-transition-delay: 1800ms;
-  -moz-transition-delay: 1800ms;
-  -ms-transition-delay: 1800ms;
-  -o-transition-delay: 1800ms;
-  transition-delay: 1800ms;
+  -webkit-transition-delay: 1000ms;
+  -moz-transition-delay: 1500ms;
+  -ms-transition-delay: 1500ms;
+  -o-transition-delay: 1500ms;
+  transition-delay: 1500ms;
 }
 
 .main-slider__btn-box {
